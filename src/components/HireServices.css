@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+
+div .containerHire {
+  margin-left: 34.17%;
+  position: absolute;
+  height: auto;
+  left: 5.08%;
+  top: 15%;
+  font-family: "Montserrat", sans-serif;
+}
+
+div .containerHire hr {
+  background-color: #faa446;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 51.67px;
+  height: 4px;
+  border: none;
+}
+
+div .containerHire h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 42px;
+}
+
+div .containerHire h5 {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+div .services {
+  display: flex;
+  flex-direction: column;
+  width: 65.83%;
+  height: 19.27%;
+}
+
+div .services h4 {
+  display: flex;
+  margin: 1px 0px 1px 0px;
+  padding: 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: black;
+}
+
+div .services h6 {
+  display: flex;
+  margin: 1px 0px 1px 0px;
+  padding: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: black;
+}
+
+div .servicesOptions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #4f4f4f;
+}
+
+div .servicesOptions h6 {
+  color: #4f4f4f;
+}
+
+div .servicesOptions input[type="checkbox"] {
+  background-color: #13c081;
+  margin-right: 16px;
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+}
+
+div .containerHire button {
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 16px;
+
+  position: relative;
+  left: 67%;
+  padding: 10px 15px;
+
+  margin-top: 20px;
+  margin-right: 20px;
+
+  color: #13c081;
+  background-color: white;
+
+  border: 1px solid #f2f2f2;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 36px;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+}
