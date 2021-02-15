@@ -87,9 +87,10 @@ div .containerHire button {
   font-weight: 700;
   font-size: 12px;
   line-height: 12px;
+  text-align: center;
 }
 
-div .containerHire button::checked {
+div .containerHire button:checked {
   color: #13c081;
   background-color: white;
 }
