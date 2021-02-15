@@ -4,7 +4,7 @@ div .containerHome {
   margin-left: 34.17%;
   position: absolute;
   height: auto;
-  width: 65.83%;
+  width: 51.67%;
   left: 5.08%;
   top: 15%;
   background-color: white;
@@ -90,10 +90,9 @@ div .containerHome button {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px 16px;
 
   position: relative;
-  left: 53%;
+  margin-left: 52%;
   padding: 10px 15px;
 
   margin-top: 20px;

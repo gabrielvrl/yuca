@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
 
 nav {
-  height: 56;
+  height: 7.3%;
   border: 1px solid #f2f2f2;
 }
 
 div .headerDiv {
   background-color: #ffffff;
-  max-height: 56px;
+  height: 7.3%;
   max-width: 80%;
   margin: 0 auto;
   display: flex;
