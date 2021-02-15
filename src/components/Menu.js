@@ -1,15 +1,28 @@
 import React from 'react';
+import { withRouter } from 'react-router';
 
 import './Menu.css';
 
-export default function Menu(){
+function Menu({ history }){
+
+    function handleYuca(e){
+        e.preventDefault()
+        history.push('/')
+    }
+
+    function handleConta(e){
+        e.preventDefault()
+        history.push('/myaccount')
+    }
+
     return(
         <div className="containerMenu">
             <div className="options">
-                {/* Button or h1? */}
-                <h1>MEU YUCA</h1>
-                <h1 style={{color: "black"}} >MINHA CONTA</h1>
+                <button onClick={handleYuca} >MEU YUCA</button>
+                <button onClick={handleConta} style={{color: "black"}} >MINHA CONTA</button>
             </div>
         </div>
     );
 }
+
+export default withRouter(Menu)

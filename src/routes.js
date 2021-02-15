@@ -5,6 +5,7 @@ import Header from './components/Header.js';
 import Menu from './components/Menu';
 import Home from './components/Home';
 import HireServices from './components/HireServices'
+import MyAccount from './components/MyAccount'
 
 
 export default function Routes() {
@@ -14,6 +15,7 @@ export default function Routes() {
             <Menu />
             <Route path="/" exact component={Home} />
             <Route path="/hireservices" component={HireServices} />
+            <Route path="/myaccount" component={MyAccount} />
         </BrowserRouter>
     );
 }

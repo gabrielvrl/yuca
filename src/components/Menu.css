@@ -23,7 +23,7 @@ div .options {
   top: 10%;
 }
 
-div .options h1 {
+div .options button {
   position: relative;
   font-size: 12px;
   color: #13c081;
@@ -34,4 +34,5 @@ div .options h1 {
   border: none;
   background-color: white;
   font-family: "Montserrat", sans-serif;
+  font-weight: 700;
 }

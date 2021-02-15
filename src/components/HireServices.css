@@ -48,24 +48,10 @@ div .services h4 {
   color: black;
 }
 
-div .services h6 {
-  display: flex;
-  margin: 1px 0px 1px 0px;
-  padding: 0;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-  color: black;
-}
-
 div .servicesOptions {
   display: flex;
   flex-direction: row;
   align-items: center;
-  color: #4f4f4f;
-}
-
-div .servicesOptions h6 {
   color: #4f4f4f;
 }
 
@@ -101,4 +87,9 @@ div .containerHire button {
   font-weight: 700;
   font-size: 12px;
   line-height: 12px;
+}
+
+div .containerHire button::checked {
+  color: #13c081;
+  background-color: white;
 }
