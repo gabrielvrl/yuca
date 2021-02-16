@@ -43,6 +43,7 @@ function HireServices({ history }){
     const GreenCheckbox = withStyles({
         root: {
           color: "#AAAAAA",
+          padding: 0,
           '&$checked': {
             color: "#13c081",
           },
@@ -58,8 +59,8 @@ function HireServices({ history }){
                 value={Number(service.price)}
             />
             <label id="nameLabel">{service.name}</label>
-            <div>
-                <label className="priceLabel">R${service.price}</label>
+            <div className="priceLabel">
+                <label>R${service.price}</label>
             </div>
         </div>
     ))

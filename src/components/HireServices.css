@@ -78,13 +78,15 @@ div .services h6#totalNumberLabel {
 div .servicesOptions {
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
   align-items: center;
   color: #4f4f4f;
-  margin: 1%;
+  margin: 1% 1% 1% 0%;
 }
 
 div .servicesOptions label#nameLabel {
   margin-left: 1%;
+  width: 100%;
   font-size: 14px;
   line-height: 20px;
 }
