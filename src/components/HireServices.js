@@ -9,7 +9,6 @@ import api from '../services/api'
 
 function HireServices({ history }){
     const [userServices, setUserServices] = useState([])
-
     useEffect(() => {
         async function loadUser(){
             const response = await api.get('/me', {})
@@ -20,7 +19,6 @@ function HireServices({ history }){
 
 
     const [servicesOptions, setServicesOptions] = useState([])
-
     useEffect(() => {
     async function loadServices(){
         const promise = await api.get('/services', {})
@@ -30,10 +28,17 @@ function HireServices({ history }){
     },[])
 
 
+
+
+    function handleCancel(e){
+        e.preventDefault();
+    }
+
     function handleSave(e){
         e.preventDefault();
     }
-    
+
+
 
     const GreenCheckbox = withStyles({
         root: {
@@ -48,14 +53,14 @@ function HireServices({ history }){
     const optionsCode = servicesOptions.map((service)=> (
         <div className="servicesOptions" key={service.id}>
             <GreenCheckbox
-                style={{ transform: "scale(1.2)", borderRadius: 4}}
-                classes={{root: 'customCheckboxRoot'}}
+                style={{ transform: "scale(1.2)"}}
                 name={service.name} 
-                value={service.price}
-                label={service.name}
+                value={Number(service.price)}
             />
             <label id="nameLabel">{service.name}</label>
-            <label id="priceLabel">R${service.price}</label>
+            <div>
+                <label className="priceLabel">R${service.price}</label>
+            </div>
         </div>
     ))
 
@@ -66,9 +71,15 @@ function HireServices({ history }){
             <div className="services">
                 {optionsCode}
                 <hr id="TotalHR"></hr>
+                <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center'}}>
+                    <h6 id="totalLabel">Total selecionado</h6>
+                    <h6 id="totalNumberLabel">R$110</h6>
+                </div>
+                <div className="finalButtons">
+                    <button style={{ marginRight: "3%" }}  onClick={handleCancel}>CANCELAR</button>
+                    <button style={{ backgroundColor: "#13C081", color: 'white' }} onClick={handleSave} type="submit">SALVAR</button>
+                </div>
             </div>
-            <button>CANCELAR</button>
-            <button style={{ backgroundColor: "#13C081", color: 'white' }} onClick={handleSave} type="submit">SALVAR</button>
         </div>
     );
 }

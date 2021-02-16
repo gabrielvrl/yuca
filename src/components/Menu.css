@@ -29,6 +29,7 @@ div .options button {
   margin: 8.5% auto;
 
   border: none;
+  outline: none;
   background-color: transparent;
   color: black;
 

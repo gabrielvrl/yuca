@@ -39,7 +39,7 @@ div .services {
 }
 
 div .containerHire .services hr#TotalHR {
-  width: 78.5%;
+  width: auto;
   height: 1px;
   background-color: #f2f2f2;
   flex-direction: column;
@@ -56,6 +56,25 @@ div .services h4 {
   color: black;
 }
 
+div .services h6 {
+  margin: 1%;
+  padding: 0;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+div .services h6#totalLabel {
+  color: #4f4f4f;
+  margin-left: 0%;
+}
+
+div .services h6#totalNumberLabel {
+  color: #13c081;
+  margin-left: auto;
+}
+
 div .servicesOptions {
   display: flex;
   flex-direction: row;
@@ -66,30 +85,32 @@ div .servicesOptions {
 
 div .servicesOptions label#nameLabel {
   margin-left: 1%;
+  font-size: 14px;
+  line-height: 20px;
 }
 
-div .servicesOptions label#priceLabel {
-  position: absolute;
-  margin-left: 70%;
-  flex-direction: column;
+div .servicesOptions .priceLabel {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
   color: #aaaaaa;
+  font-size: 14px;
+  line-height: 20px;
 }
 
-div .servicesOptions label#priceLabel:focus-within {
-  color: red;
+div .containerHire .services .finalButtons {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
 }
 
-div .containerHire button {
-  flex-direction: row;
-  align-items: center;
-  padding: 0px 16px;
+div .containerHire .services button {
+  width: max-content;
+  height: max-content;
 
-  position: relative;
-  left: 67%;
   padding: 10px 15px;
 
   margin-top: 20px;
-  margin-right: 20px;
 
   color: #13c081;
   background-color: white;
@@ -98,6 +119,7 @@ div .containerHire button {
   box-sizing: border-box;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
   border-radius: 36px;
+  outline: none;
 
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
