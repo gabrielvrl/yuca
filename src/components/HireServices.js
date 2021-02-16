@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import { withStyles } from '@material-ui/core/styles';
+import Checkbox from '@material-ui/core/Checkbox';
 import { withRouter } from 'react-router';
 
 import './HireServices.css'
@@ -16,6 +18,7 @@ function HireServices({ history }){
         loadUser()
     },[])
 
+
     const [servicesOptions, setServicesOptions] = useState([])
 
     useEffect(() => {
@@ -30,12 +33,29 @@ function HireServices({ history }){
     function handleSave(e){
         e.preventDefault();
     }
+    
 
-    const optionsHTML = servicesOptions.map((service)=> (
+    const GreenCheckbox = withStyles({
+        root: {
+          color: "#AAAAAA",
+          '&$checked': {
+            color: "#13c081",
+          },
+        },
+        checked: {},
+      })((props) => <Checkbox color="default" {...props} />);
+
+    const optionsCode = servicesOptions.map((service)=> (
         <div className="servicesOptions" key={service.id}>
-            <input type="checkbox" name={service.name} value="service.price" />
-            <label style={{ marginRight: "42%"}}>{service.name}</label>
-            <label style={{ flexDirection: "column"}} >R${service.price}</label>
+            <GreenCheckbox
+                style={{ transform: "scale(1.2)", borderRadius: 4}}
+                classes={{root: 'customCheckboxRoot'}}
+                name={service.name} 
+                value={service.price}
+                label={service.name}
+            />
+            <label id="nameLabel">{service.name}</label>
+            <label id="priceLabel">R${service.price}</label>
         </div>
     ))
 
@@ -44,8 +64,8 @@ function HireServices({ history }){
             <hr />
             <h1>Serviços Contratados</h1>
             <div className="services">
-                {optionsHTML}
-                <hr style={{ width: 620, height:1, backgroundColor: "#F2F2F2", flexDirection: "column", margin: "22px 0px 15px 0px" }} />
+                {optionsCode}
+                <hr id="TotalHR"></hr>
             </div>
             <button>CANCELAR</button>
             <button style={{ backgroundColor: "#13C081", color: 'white' }} onClick={handleSave} type="submit">SALVAR</button>
