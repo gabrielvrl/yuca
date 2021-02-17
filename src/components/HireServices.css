@@ -100,10 +100,25 @@ div .servicesOptions .priceLabel {
   line-height: 20px;
 }
 
+div .containerHire .services .totalSelected {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 div .containerHire .services .finalButtons {
   display: flex;
   justify-content: flex-end;
   width: 100%;
+}
+
+div .containerHire .services .finalButtons #cancelButton {
+  margin-right: 3%;
+}
+
+div .containerHire .services .finalButtons #saveButton {
+  background-color: #13c081;
+  color: white;
 }
 
 div .containerHire .services button {
