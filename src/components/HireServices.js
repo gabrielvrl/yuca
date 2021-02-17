@@ -18,9 +18,6 @@ function HireServices({ history }){
     },[])
 
 
-    const [totalPrice, setTotalPrice] = useState(0)
-
-
     const [servicesOptions, setServicesOptions] = useState([])
     useEffect(() => {
     async function loadServices(){
@@ -54,14 +51,25 @@ function HireServices({ history }){
     })((props) => <Checkbox color="default" {...props} />);
 
 
+    const [totalPrice, setTotalPrice] = useState(0)
     function checkChecked({ id }) {
-        const serializedServices = servicesOptions.map((service) =>
-            service.id === id
-            ? ({ ...service, checked: !service.checked })
-            : service
-        )
+        const serializedServices = servicesOptions.map((service) => {
+            if (service.id === id) {
+                if(!service.checked === true){
+                    setTotalPrice(totalPrice+service.price)
+                }
+                else{
+                    setTotalPrice(totalPrice-service.price)
+                }
+                return {...service, checked: !service.checked};
+            }
+            else {
+                return service;
+            }
+        })
         setServicesOptions(serializedServices)
     }
+
 
     function optionsCode(){
         return(
