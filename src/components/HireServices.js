@@ -31,12 +31,20 @@ function HireServices({ history }){
 
     function handleCancel(e){
         e.preventDefault();
+        const cancelButton = servicesOptions.map((service) => {
+            return service.checked = false
+        })
+        setServicesOptions(cancelButton)
     }
 
-    function handleSave(e){
+    async function handleSave(e){
         e.preventDefault();
-    }
+        await api.put('/services', {
 
+        })
+
+        history.push('/sucess')
+    }
 
 
     const GreenCheckbox = withStyles({
@@ -52,21 +60,17 @@ function HireServices({ history }){
 
 
     const [totalPrice, setTotalPrice] = useState(0)
+
+    useEffect(() => {
+        setTotalPrice(servicesOptions.reduce((total, {checked, price}) => checked ? total + price : total, 0));
+    }, [servicesOptions]);
+
     function checkChecked({ id }) {
-        const serializedServices = servicesOptions.map((service) => {
-            if (service.id === id) {
-                if(!service.checked === true){
-                    setTotalPrice(totalPrice+service.price)
-                }
-                else{
-                    setTotalPrice(totalPrice-service.price)
-                }
-                return {...service, checked: !service.checked};
-            }
-            else {
-                return service;
-            }
-        })
+        const serializedServices = servicesOptions.map((service) =>
+            service.id === id
+            ? ({ ...service, checked: !service.checked })
+            : service
+        )
         setServicesOptions(serializedServices)
     }
 
