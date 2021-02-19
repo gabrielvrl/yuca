@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useLayoutEffect } from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import Checkbox from '@material-ui/core/Checkbox';
 import { withRouter } from 'react-router';
@@ -8,16 +8,6 @@ import './HireServices.css'
 import api from '../services/api'
 
 function HireServices({ history }){
-    const [userServices, setUserServices] = useState([])
-    useEffect(() => {
-        async function loadUser() {
-            const response = await api.get('/me', {})
-            setUserServices(response.data.services)
-        }
-        loadUser()
-    },[])
-
-
     const [servicesOptions, setServicesOptions] = useState([])
     useEffect(() => {
     async function loadServices(){
@@ -28,13 +18,26 @@ function HireServices({ history }){
     loadServices()
     },[])
 
+    
+    const [userServices, setUserServices] = useState([])
+
+
+    useEffect(() => {
+        async function loadUser() {
+            const response = await api.get('/me', {})
+            setUserServices(response.data.services)
+        }
+        loadUser()
+    },[])
+
 
     function handleCancel(e){
         e.preventDefault();
-        const cancelButton = servicesOptions.map((service) => {
+        servicesOptions.map((service) => {
+            console.log(service.checked)
             return service.checked = false
         })
-        setServicesOptions(cancelButton)
+
     }
 
     async function handleSave(e){
@@ -94,6 +97,21 @@ function HireServices({ history }){
         ))
         )
     }
+
+    useLayoutEffect(() => {
+        console.log("entrou no useLayoutEffect")
+        function inititalState() {
+            servicesOptions.map((service) => {
+                userServices.map((userService) => {
+                    if (userService.id === service.id){
+                        service.checked = true
+                        console.log("true")
+                    }
+                })
+            })
+        }
+        inititalState()
+    },[])
 
     return(
         <div className="containerHire">
