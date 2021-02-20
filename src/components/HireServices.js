@@ -34,8 +34,8 @@ function HireServices({ history }){
     function handleCancel(e){
         e.preventDefault();
         servicesOptions.map((service) => {
+            service.checked = false
             console.log(service.checked)
-            return service.checked = false
         })
 
     }
@@ -46,7 +46,7 @@ function HireServices({ history }){
 
         })
 
-        history.push('/sucess')
+        history.push('/success')
     }
 
 

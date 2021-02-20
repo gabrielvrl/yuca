@@ -1,18 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
 
 div .containerMyAccount {
+  flex-flow: row wrap;
   margin-left: 34.17%;
   position: absolute;
   height: auto;
-  width: 51.67%;
+  width: max-content;
   left: 5.08%;
   top: 15%;
   font-family: "Montserrat", sans-serif;
 }
 
 div .containerMyAccount hr {
-  /* background-color: #13c081; */
-  background-color: cornflowerblue;
+  background-color: #13c081;
+  /* background-color: cornflowerblue; */
   margin: 0;
   padding: 0;
   position: relative;
@@ -32,13 +33,19 @@ div .containerMyAccount hr#DivHR {
 div .containerMyAccount h1 {
   font-size: 32px;
   font-weight: 700;
-  line-height: 32px;
+  line-height: 42px;
 }
 
 div .containerMyAccount h3 {
   font-size: 23px;
   font-weight: 600;
-  line-height: 23px;
+  line-height: 31px;
+}
+
+div .containerMyAccount h6 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 div .containerMyAccount ul {
@@ -47,7 +54,7 @@ div .containerMyAccount ul {
 div .containerMyAccount li {
   font-size: 14px;
   font-weight: 400;
-  line-height: 14px;
+  line-height: 20px;
   margin: 3% 3%;
 }
 
@@ -57,16 +64,8 @@ div .containerMyAccount span {
 
 div .containerMyAccount .finalButtons {
   display: flex;
-  justify-content: flex-start;
-  width: 100%;
-}
-
-div .containerMyAccount .successButton {
-  display: flex;
   justify-content: center;
   width: 100%;
-  color: white;
-  background-color: #13c081;
 }
 
 div .containerMyAccount button {
@@ -85,4 +84,35 @@ div .containerMyAccount button {
   font-weight: 700;
   font-size: 12px;
   line-height: 12px;
+}
+
+div .containerMyAccount .successButton {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  color: white;
+  background-color: #13c081;
+}
+
+div .containerMyAccount .saveInput {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-top: 5%;
+  color: white;
+  background-color: #13c081;
+}
+
+div .containerMyAccount input {
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  outline: none;
+  height: 25px;
+  padding: 0 20px;
+  font-size: 16px;
+  color: black;
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
 }
