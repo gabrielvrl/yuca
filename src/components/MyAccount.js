@@ -45,7 +45,7 @@ function MyAccount({ history }){
 
     function handleChangeInfo(e) {
         e.preventDefault()
-        history.push('/')
+        history.push('/changeaccountinformation')
     }
 
     function handleChangeServices(e) {
@@ -65,7 +65,7 @@ function MyAccount({ history }){
                 <li><span>Email:</span> {user.email}</li>
             </ul>
             <hr id="DivHR"></hr>
-            <h3>informações sobre seu apartamento atual:</h3>
+            <h3>Informações sobre seu apartamento atual:</h3>
             <ul>
                 <li><span>Nome:</span> {apartment.name}, {apartment.number}</li>
                 <li><span>Quarto:</span> {apartment.room}</li>

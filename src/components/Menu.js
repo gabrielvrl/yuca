@@ -7,7 +7,7 @@ function Menu({ history }){
     let location = useLocation()
     useEffect(()=> {
         async function changeButtonColor(){
-            if ('/myaccount' === location.pathname){
+            if ('/myaccount' === location.pathname || '/changeaccountinformation' === location.pathname){
                 let account = document.getElementById("account")
                 account.style.color = "#13C081"
                 let yuca = document.getElementById("yuca")
