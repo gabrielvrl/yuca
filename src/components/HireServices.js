@@ -119,11 +119,12 @@ function HireServices({ history }){
             <h1>Serviços Contratados</h1>
             <div className="services">
                 {optionsCode()}
-                <hr id="TotalHR"></hr>
+                <hr id="TotalHR" />
                 <div className="totalSelected">
                     <h6 id="totalLabel">Total selecionado</h6>
                     <h6 id="totalNumberLabel">R${totalPrice}</h6>
                 </div>
+                <hr id="finalButtonsHR" />
                 <div className="finalButtons">
                     <button id="cancelButton" onClick={handleCancel}>CANCELAR</button>
                     <button id="saveButton" onClick={handleSave} type="submit">SALVAR</button>
