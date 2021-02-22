@@ -22,6 +22,13 @@ function Menu({ history }){
         changeButtonColor()
     },[location])
 
+    if ('/hireservices' === location.pathname && window.screen.width <= 500){
+        document.getElementById("ContainerMenu").style.display = "none";
+    }
+    else {
+        document.getElementById("ContainerMenu").style.display = "flex";
+    }
+
     function handleYuca(e){
         e.preventDefault()
         history.push('/')
@@ -33,7 +40,7 @@ function Menu({ history }){
     }
 
     return(
-        <div className="containerMenu">
+        <div className="containerMenu" id="ContainerMenu" >
             <div className="options">
                 <button id="yuca" onClick={handleYuca}>MEU YUCA</button>
                 <button id="account" onClick={handleConta}>MINHA CONTA</button>
