@@ -109,3 +109,44 @@ div .containerHome button {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
+
+@media (max-width: 500px) {
+  div .containerHome {
+    flex-flow: row wrap;
+    margin-left: 0;
+    position: absolute;
+    width: auto;
+    left: 5.08%;
+    right: 5.08%;
+    top: 15%;
+    background-color: transparent;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  div .containerHome hr {
+    background-color: #13c081;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 30px;
+    height: 4px;
+    border: none;
+  }
+
+  div .containerHome h1 {
+    display: flex;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    width: max-content;
+  }
+
+  div .containerHome h5 {
+    width: max-content;
+  }
+  div .containerHome button {
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+  }
+}
