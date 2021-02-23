@@ -7,7 +7,7 @@ function Menu({ history }){
     let location = useLocation()
     useEffect(()=> {
         async function changeButtonColor(){
-            if ('/myaccount' === location.pathname || '/changeaccountinformation' === location.pathname){
+            if ('/myaccount' === location.pathname || '/changeaccountinformation' === location.pathname /* && window.screen.width > 500 */){
                 let account = document.getElementById("account")
                 account.style.color = "#13C081"
                 let yuca = document.getElementById("yuca")
@@ -20,14 +20,21 @@ function Menu({ history }){
             }
         }
         changeButtonColor()
-    },[location])
+    },[location.pathname])
 
-    if ('/hireservices' === location.pathname && window.screen.width <= 500){
-        document.getElementById("ContainerMenu").style.display = "none";
-    }
-    else {
-        document.getElementById("ContainerMenu").style.display = "flex";
-    }
+    useEffect(()=>{
+        async function handleMenuDisplay() {
+            console.log("")
+            if ('/hireservices' === location.pathname && window.screen.width <= 500){
+                document.getElementById("ContainerMenu").style.display = "none";
+            }
+            else {
+                document.getElementById("ContainerMenu").style.display = "flex";
+            }
+        }
+        handleMenuDisplay()
+    },[location.pathname])
+    
 
     function handleYuca(e){
         e.preventDefault()

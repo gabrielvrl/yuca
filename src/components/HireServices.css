@@ -47,6 +47,10 @@ div .containerHire .services hr#TotalHR {
   margin: 22px 0px 15px 0px;
 }
 
+div .containerHire .services hr#finalButtonsHR {
+  display: none;
+}
+
 div .services h4 {
   display: flex;
   margin: 1px 0px 1px 0px;
@@ -144,4 +148,64 @@ div .containerHire .services button {
   font-size: 12px;
   line-height: 12px;
   text-align: center;
+}
+@media (max-width: 500px) {
+  div .containerHire {
+    margin-left: 0;
+    width: auto;
+    right: 5.08%;
+  }
+
+  div .containerHire hr {
+    width: 30px;
+  }
+
+  div .containerHire h1 {
+    display: flex;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    width: max-content;
+  }
+
+  div .containerHire h5 {
+    width: max-content;
+  }
+
+  div .containerHire .services button {
+    margin-top: auto;
+    margin-bottom: auto;
+    display: block;
+  }
+
+  div .containerHire .services .finalButtons {
+    position: fixed;
+    bottom: 3%;
+    left: 0;
+  }
+
+  div .containerHire .services .finalButtons #cancelButton {
+    margin-right: 5%;
+    margin-left: auto;
+  }
+
+  div .containerHire .services .finalButtons #saveButton {
+    margin-left: 5%;
+    margin-right: auto;
+  }
+
+  div .containerHire .services hr#finalButtonsHR {
+    display: block;
+    position: fixed;
+    margin-bottom: 20%;
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+    height: 1px;
+    background-color: #f2f2f2;
+  }
+
+  div .containerHire .services .servicesOptions {
+    margin-top: 3%;
+  }
 }
