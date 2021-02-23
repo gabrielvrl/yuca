@@ -4,10 +4,10 @@ div .containerMyAccount {
   flex-flow: row wrap;
   margin-left: 34.17%;
   position: absolute;
-  height: auto;
-  width: max-content;
+  width: 51.67%;
   left: 5.08%;
   top: 15%;
+  background-color: transparent;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -66,6 +66,7 @@ div .containerMyAccount .finalButtons {
   display: flex;
   justify-content: center;
   width: 100%;
+  margin-bottom: 3%;
 }
 
 div .containerMyAccount button {
@@ -115,4 +116,33 @@ div .containerMyAccount input {
   max-width: 300px;
   display: flex;
   flex-direction: column;
+}
+
+@media (max-width: 500px) {
+  div .containerMyAccount {
+    margin-left: 0;
+    width: auto;
+    right: 5.08%;
+  }
+
+  div .containerMyAccount hr {
+    width: 30px;
+  }
+
+  div .containerMyAccount h1 {
+    display: flex;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px; /* 
+    width: max-content; */
+  }
+
+  div .containerMyAccount h5 {
+    width: max-content;
+  }
+  div .containerMyAccount button {
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+  }
 }
