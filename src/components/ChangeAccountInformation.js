@@ -50,7 +50,7 @@ function MyAccount({ history }){
 
     return(
         <div className="containerMyAccount">
-            <hr />
+            <hr style={{ backgroundColor: "#faa446" }} />
             <h1>Minha conta</h1>
             <hr id="DivHR"></hr>
             <h3>Suas informações de usuário:</h3>
