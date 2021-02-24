@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
-import Header from './components/Header.js';
+import Header from './components/Header';
 import Menu from './components/Menu';
 import Home from './components/Home';
 import HireServices from './components/HireServices'
