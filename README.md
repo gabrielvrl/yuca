@@ -36,7 +36,7 @@
 
 #### Hire Services
 
-<img src=".github/images/desktop-hireServices.png" width="600" style="margin-right: 10px; margin-bottom: 5rem" align="center" />
+<img src=".github/images/desktop-hireServices.png" width="600" style="margin-right: 10px; margin-bottom: 5rem; align: 'center'"/>
 
 ### :iphone: Mobile Version
 
