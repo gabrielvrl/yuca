@@ -7,11 +7,11 @@
 <br />
 
 <p align="center">
-   <img src=".github/images/desktop-home.png" width="400" height="600" style="margin-right: 10px; margin-bottom: 5rem"/>
+   <img src=".github/images/desktop-home.png" width="400" height="250" style="margin-right: 10px; margin-bottom: 5rem"/>
    <img src=".github/images/mobile-home.png" width="200" />
 </p>
 
-## Deployed application:
+## :rocket: Deployed application:
 
 ### https://yuca.vercel.app/
 
