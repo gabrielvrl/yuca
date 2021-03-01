@@ -25,10 +25,9 @@
 
 - [Design & Assessment](#art-design-&-assessment)
 
+- [Required Features](#dart-required-features)
   - [Desktop Version](#computer-desktop-version)
   - [Mobile Version](#iphone-mobile-version)
-
-- [Required Features](#dart-required-features)
 
 ## :art: Design & Assessment
 
