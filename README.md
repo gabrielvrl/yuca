@@ -1,8 +1,21 @@
-# Yuca Project - 2.0
+# Yuca 2.0
+
+<p align="center">
+   <img src="https://user-images.githubusercontent.com/22225821/109539533-2cce3680-7aa0-11eb-9db8-f1b8b6f8f402.png" width="350"/>
+</p>
+
+<br />
+
+<p align="center">
+   <img src="https://user-images.githubusercontent.com/22225821/109540303-06f56180-7aa1-11eb-8299-1511d4ba2762.png" width="400" style="margin-right: 10px; margin-bottom: 5rem"/>
+   <img src="https://user-images.githubusercontent.com/22225821/109537588-ce07bd80-7a9d-11eb-9065-d735169b99da.png" width="200"/>
+</p>
 
 ## Deployed application:
 
-https://yuca.vercel.app/
+### https://yuca.vercel.app/
+
+## Required Features:
 
 ## Home - Desktop
 
@@ -11,3 +24,5 @@ https://yuca.vercel.app/
 # Services - Desktop
 
 ![Screenshot from 2021-02-15 08-46-43](https://user-images.githubusercontent.com/22225821/107943029-d4108100-6f6a-11eb-82b8-489cfe40ed54.png)
+
+## Extra Features:
