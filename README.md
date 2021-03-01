@@ -30,13 +30,23 @@
 
 ### Desktop Version
 
-#### Home page
+#### Home Page
 
 <img src=".github/images/desktop-home.png" width="600" style="margin-right: 10px; margin-bottom: 5rem"/>
 
 #### Hire Services
 
 <img src=".github/images/desktop-hireServices.png" width="600" style="margin-right: 10px; margin-bottom: 5rem"/>
+
+### Mobile Version
+
+#### Home Page
+
+<img src=".github/images/mobile-home.png" width="200" />
+
+#### Hire Services
+
+<img src=".github/images/mobile-hireServices.png" width="200" />
 
 ## :chart_with_upwards_trend: Extra Features:
 
