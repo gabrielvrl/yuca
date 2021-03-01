@@ -23,11 +23,11 @@
 
 - [Deployed application](#rocket-deployed-application)
 
-* [Design & Assessment](#design-&-assessment)
+* [Design & Assessment](#art-design-&-assessment)
 
 - [Required Features](#dart-required-features)
 
-## <img src=".github/images/figma.png" width="30" height="30" /> Design & Assessment
+## :art: Design & Assessment
 
 [Design on Figma](https://www.figma.com/file/ofetdcZKc2BTuWHkAXJOBv/Teste-Front-End?node-id=0%3A1)\
 [Assessment](https://github.com/yuca-live/front-end-assessment)
