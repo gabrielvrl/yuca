@@ -40,13 +40,14 @@
 
 ### :iphone: Mobile Version
 
+<p>
 #### Home Page
 
 <img src=".github/images/mobile-home.png" width="200" />
-
 #### Hire Services
 
 <img src=".github/images/mobile-hireServices.png" width="200" />
+</p>
 
 ## :chart_with_upwards_trend: Extra Features:
 
