@@ -23,14 +23,14 @@
 
 - [Deployed application](#rocket-deployed-application)
 
-- [Design & Assessment](#art-design-e-assessment)
+- [Design & Assessment](#art-design-&-assessment)
 
 - [Required Features](#dart-required-features)
 
 ## :art: Design & Assessment
 
-[Design on Figma](https://www.figma.com/file/ofetdcZKc2BTuWHkAXJOBv/Teste-Front-End?node-id=0%3A1)\
-[Assessment](https://github.com/yuca-live/front-end-assessment)
+- [Design on Figma](https://www.figma.com/file/ofetdcZKc2BTuWHkAXJOBv/Teste-Front-End?node-id=0%3A1)\
+- [Assessment](https://github.com/yuca-live/front-end-assessment)
 
 ## :dart: Required Features:
 
