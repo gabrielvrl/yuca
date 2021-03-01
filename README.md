@@ -15,6 +15,11 @@
 
 ### https://yuca.vercel.app/
 
+## Layout & Assessment
+
+[Layout on Figma](https://www.figma.com/file/ofetdcZKc2BTuWHkAXJOBv/Teste-Front-End?node-id=0%3A1)
+[Assessment](https://github.com/yuca-live/front-end-assessment)
+
 ## Required Features:
 
 ## Home - Desktop
