@@ -8,7 +8,7 @@
 
 <p align="center">
    <img src="https://user-images.githubusercontent.com/22225821/109540303-06f56180-7aa1-11eb-8299-1511d4ba2762.png" width="400" style="margin-right: 10px; margin-bottom: 5rem"/>
-   <img src="https://user-images.githubusercontent.com/22225821/109537588-ce07bd80-7a9d-11eb-9065-d735169b99da.png" width="350"/>
+   <img src=".github/images/mobile-home.png" width="200" />
 </p>
 
 ## Deployed application:
