@@ -21,9 +21,11 @@
 
 ## :pushpin: Table of Contents
 
-- [Design & Assessment](img-design-&-assessment)
+- [Deployed application](#rocket-deployed-application)
 
-* [Required Features](#dart-required-features)
+* [Design & Assessment](#img-design-&-assessment)
+
+- [Required Features](#dart-required-features)
 
 ## <img src=".github/images/figma.png" width="30" height="30" /> Design & Assessment
 
