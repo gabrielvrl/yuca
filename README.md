@@ -32,6 +32,8 @@
 
 - [Extra Features](#chart_with_upwards_trend-extra-features)
 
+- [Application Tour](#movie_camera-application-tour)
+
 ## :art: Design & Assessment
 
 - [Design on Figma](https://www.figma.com/file/ofetdcZKc2BTuWHkAXJOBv/Teste-Front-End?node-id=0%3A1)
