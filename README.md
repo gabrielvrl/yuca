@@ -26,7 +26,7 @@
 
 ## :dart: Required Features:
 
-### If you want to see the images bigger, click on them. But i strongly suggest to check out the live version by clicking [here](https://yuca.vercel.app/).
+### :exclamation: If you want to see the images bigger, click on them. But i strongly suggest to check out the live version by clicking [here](https://yuca.vercel.app/).
 
 ### :computer: Desktop Version
 
