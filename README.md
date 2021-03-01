@@ -84,4 +84,11 @@
    <img src=".github/images/mobile-success.png" width="200" />
 </p>
 
+### :four: Page Not Found
+
+<p align="center">
+   <img src=".github/images/desktop-pageNotFound.png" width="575" style="margin-right: 10px; margin-bottom: 5rem"/>
+   <img src=".github/images/mobile-pageNotFound.png" width="200" />
+</p>
+
 ## :movie_camera: Application Tour:
