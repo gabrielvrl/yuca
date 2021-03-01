@@ -91,4 +91,10 @@
    <img src=".github/images/mobile-pageNotFound.png" width="200" />
 </p>
 
+### :five: Favicon & Page Title
+
+<p align="center">
+   <img src=".github/images/favicon_and_title.png" />
+</p>
+
 ## :movie_camera: Application Tour:
