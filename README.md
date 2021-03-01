@@ -27,6 +27,12 @@
   - [Desktop Version](#computer-desktop-version)
   - [Mobile Version](#iphone-mobile-version)
 - [Extra Features](#chart_with_upwards_trend-extra-features)
+  - [My Account](#one-my-account)
+  - [Change Account Informations](#two-change-account-informations)
+  - [Success](#three-success)
+  - [Page Not Found](#four-page-not-found)
+  - [Favicon & Page Title](#five-favicon-&-page-title)
+  - [Application deployed using Vercel](#six-application-deployed-using-vercel)
 - [Application Tour](#movie_camera-application-tour)
 
 ## :art: Design & Assessment
