@@ -28,7 +28,7 @@
 
 ### If you want to see the images bigger, click on them. But i strongly suggest to check out the live version by clicking [here](https://yuca.vercel.app/).
 
-### Desktop Version
+### :computer: Desktop Version
 
 #### Home Page
 
@@ -38,7 +38,7 @@
 
 <img src=".github/images/desktop-hireServices.png" width="600" style="margin-right: 10px; margin-bottom: 5rem"/>
 
-### Mobile Version
+### :iphone: Mobile Version
 
 #### Home Page
 
