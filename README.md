@@ -94,7 +94,11 @@
 ### :five: Favicon & Page Title
 
 <p align="center">
-   <img src=".github/images/favicon_and_title_2.png" />
+   <img src=".github/images/favicon_and_title.png" />
 </p>
+
+### :six: Application deployed using Vercel
+
+#### https://yuca.vercel.app/
 
 ## :movie_camera: Application Tour:
