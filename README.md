@@ -32,19 +32,17 @@
 
 #### Home
 
-<img src=".github/images/desktop-home.png" width="600" style="margin-right: 10px; margin-bottom: 5rem" align="center" />
+<img src=".github/images/desktop-home.png" width="600" style="margin-right: 10px; margin-bottom: 5rem" />
 
 #### Hire Services
 
-<img src=".github/images/desktop-hireServices.png" width="600" style="margin-right: 10px; margin-bottom: 5rem; align: 'center'"/>
+<img src=".github/images/desktop-hireServices.png" width="600" style="margin-right: 10px; margin-bottom: 5rem"/>
 
 ### :iphone: Mobile Version
 
-#### Home
+#### Home & Hire Services
 
-#### Hire Services
-
-<p>
+<p align="center">
    <img src=".github/images/mobile-home.png" width="200" />
    <img src=".github/images/mobile-hireServices.png" width="200" />
 </p>
