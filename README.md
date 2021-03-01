@@ -19,6 +19,10 @@
 
 ### https://yuca.vercel.app/
 
+## :pushpin: Table of Contents
+
+- [Design & Assessment](#design&assessment)
+
 ## <img src=".github/images/figma.png" width="30" height="30" /> Design & Assessment
 
 [Design on Figma](https://www.figma.com/file/ofetdcZKc2BTuWHkAXJOBv/Teste-Front-End?node-id=0%3A1)\
