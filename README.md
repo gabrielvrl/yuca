@@ -32,11 +32,15 @@
 
 #### Home
 
-<img src=".github/images/desktop-home.png" width="600" style="margin-right: 10px; margin-bottom: 5rem" />
+<p align="center">
+   <img src=".github/images/desktop-home.png" width="600" style="margin-right: 10px; margin-bottom: 5rem" />
+</p>
 
 #### Hire Services
 
-<img src=".github/images/desktop-hireServices.png" width="600" style="margin-right: 10px; margin-bottom: 5rem"/>
+<p align="center">
+   <img src=".github/images/desktop-hireServices.png" width="600" style="margin-right: 10px; margin-bottom: 5rem"/>
+</p>
 
 ### :iphone: Mobile Version
 
