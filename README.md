@@ -26,13 +26,17 @@
 
 ## :dart: Required Features:
 
-### If you want to see the images bigger, click on them. But i strongly suggest to check out the live version by clicking [here](https://yuca.vercel.app/)
+### If you want to see the images bigger, click on them. But i strongly suggest to check out the live version by clicking [here](https://yuca.vercel.app/).
 
 ### Desktop Version
 
 #### Home page
 
-<img src=".github/images/desktop-home.png" width="500" style="margin-right: 10px; margin-bottom: 5rem"/>
+<img src=".github/images/desktop-home.png" width="600" style="margin-right: 10px; margin-bottom: 5rem"/>
+
+#### Hire Services
+
+<img src=".github/images/desktop-hireServices.png" width="600" style="margin-right: 10px; margin-bottom: 5rem"/>
 
 ## :chart_with_upwards_trend: Extra Features:
 
