@@ -30,23 +30,23 @@
 
 ### :computer: Desktop Version
 
-#### Home Page
+#### Home
 
-<img src=".github/images/desktop-home.png" width="600" style="margin-right: 10px; margin-bottom: 5rem"/>
+<img src=".github/images/desktop-home.png" width="600" style="margin-right: 10px; margin-bottom: 5rem" align="center" />
 
 #### Hire Services
 
-<img src=".github/images/desktop-hireServices.png" width="600" style="margin-right: 10px; margin-bottom: 5rem"/>
+<img src=".github/images/desktop-hireServices.png" width="600" style="margin-right: 10px; margin-bottom: 5rem" align="center" />
 
 ### :iphone: Mobile Version
 
-<p>
-#### Home Page
+#### Home
 
-<img src=".github/images/mobile-home.png" width="200" />
 #### Hire Services
 
-<img src=".github/images/mobile-hireServices.png" width="200" />
+<p>
+   <img src=".github/images/mobile-home.png" width="200" />
+   <img src=".github/images/mobile-hireServices.png" width="200" />
 </p>
 
 ## :chart_with_upwards_trend: Extra Features:
