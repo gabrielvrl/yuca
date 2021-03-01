@@ -94,7 +94,7 @@
 ### :five: Favicon & Page Title
 
 <p align="center">
-   <img src=".github/images/favicon_and_title.png" />
+   <img src=".github/images/favicon_and_title_2.png" />
 </p>
 
 ## :movie_camera: Application Tour:
