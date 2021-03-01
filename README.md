@@ -7,7 +7,7 @@
 <br />
 
 <p align="center">
-   <img src=".github/images/desk-home.png" width="400" style="margin-right: 10px; margin-bottom: 5rem"/>
+   <img src=".github/images/desk-yuca.png" width="400" style="margin-right: 10px; margin-bottom: 5rem"/>
    <img src=".github/images/mobile-home.png" width="200" />
 </p>
 
