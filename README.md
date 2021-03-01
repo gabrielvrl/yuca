@@ -1,4 +1,4 @@
-# <img src=".github/images/logoYuca.png" width="50" height="50" /> Yuca 2.0
+# <img src=".github/images/logoYuca.png" width="25" height="25" /> 2.0
 
 <p align="center">
    <img src=".github/images/logoYuca.png" width="150" height="150" />
