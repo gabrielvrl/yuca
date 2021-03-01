@@ -1,7 +1,7 @@
 # Yuca 2.0
 
 <p align="center">
-   <img src="https://user-images.githubusercontent.com/22225821/109539533-2cce3680-7aa0-11eb-9db8-f1b8b6f8f402.png" width="350"/>
+   <img src="https://user-images.githubusercontent.com/22225821/109539533-2cce3680-7aa0-11eb-9db8-f1b8b6f8f402.png" width="350" height="350" />
 </p>
 
 <br />
