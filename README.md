@@ -1,4 +1,8 @@
-# Yuca Project
+# Yuca Project - 2.0
+
+## Deployed application:
+
+### https://yuca.vercel.app/
 
 ## Home - Desktop
 
