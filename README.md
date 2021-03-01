@@ -21,7 +21,7 @@
 
 ## :pushpin: Table of Contents
 
-- [Design & Assessment](#design&assessment)
+- [Required Features](#dart-required-features)
 
 ## <img src=".github/images/figma.png" width="30" height="30" /> Design & Assessment
 
