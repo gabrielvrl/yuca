@@ -23,7 +23,7 @@
 
 - [Deployed application](#rocket-deployed-application)
 
-* [Design & Assessment](#art-design-&-assessment)
+- [Design & Assessment](#art-design-&-assessment)
 
 - [Required Features](#dart-required-features)
 
