@@ -11,6 +11,10 @@
    <img src=".github/images/mobile-home.png" width="200" />
 </p>
 
+[![Author](https://img.shields.io/badge/author-GabrielVarela-13C081?style=flat-square)](https://github.com/gabrielvrl)
+
+---
+
 ## :rocket: Deployed application:
 
 ### https://yuca.vercel.app/
