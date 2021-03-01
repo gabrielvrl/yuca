@@ -22,16 +22,11 @@
 ## :pushpin: Table of Contents
 
 - [Deployed application](#rocket-deployed-application)
-
 - [Design & Assessment](#art-design-&-assessment)
-
 - [Required Features](#dart-required-features)
-
   - [Desktop Version](#computer-desktop-version)
   - [Mobile Version](#iphone-mobile-version)
-
 - [Extra Features](#chart_with_upwards_trend-extra-features)
-
 - [Application Tour](#movie_camera-application-tour)
 
 ## :art: Design & Assessment
