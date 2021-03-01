@@ -15,7 +15,7 @@
 
 ### https://yuca.vercel.app/
 
-## <img src="https://user-images.githubusercontent.com/22225821/109549105-41183080-7aac-11eb-9a3a-952f62481208.png" width="25" height="25 /> Layout & Assessment
+## <img src=".github/images/figma.png" width="25" height="25 /> Layout & Assessment
 
 [Layout on Figma](https://www.figma.com/file/ofetdcZKc2BTuWHkAXJOBv/Teste-Front-End?node-id=0%3A1)\
 [Assessment](https://github.com/yuca-live/front-end-assessment)
