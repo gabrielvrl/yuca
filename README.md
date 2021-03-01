@@ -63,11 +63,18 @@
 
 ## :chart_with_upwards_trend: Extra Features:
 
-### My Account:
+### :one: My Account
 
 <p align="center">
    <img src=".github/images/desktop-myAccount.png" width="575" style="margin-right: 10px; margin-bottom: 5rem"/>
    <img src=".github/images/mobile-myAccount.gif" width="200" />
+</p>
+
+### :two: Change Account Informations
+
+<p align="center">
+   <img src=".github/images/desktop-changeAccountInfo.png" width="575" style="margin-right: 10px; margin-bottom: 5rem"/>
+   <img src=".github/images/mobile-changeAccountInfo.gif" width="200" />
 </p>
 
 ## :movie_camera: Application Tour:
