@@ -2,7 +2,7 @@
 
 ## Deployed application:
 
-### https://yuca.vercel.app/
+https://yuca.vercel.app/
 
 ## Home - Desktop
 
