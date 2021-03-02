@@ -111,12 +111,8 @@
 
 ### Desktop Version
 
-<p align="center">
-   <video src="https://user-images.githubusercontent.com/22225821/109578934-d3352e80-7ad6-11eb-99fa-1c6d5ae9b8b3.mp4">
-</p>
+#### By [clicking here](https://youtu.be/hdinE654Os8) you will be directed to the Desktop Version Video on Youtube
 
 ### Mobile Version
 
-<p align="center">
-   <video src="https://user-images.githubusercontent.com/22225821/109578893-c3b5e580-7ad6-11eb-925f-133c7ead8e5a.mp4">
-</p>
+#### By [clicking here](https://youtu.be/YrO1dx1zea4) you will be directed to the Mobile Version Video on Youtube
