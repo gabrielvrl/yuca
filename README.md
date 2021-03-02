@@ -108,3 +108,15 @@
 #### https://yuca.vercel.app/
 
 ## :movie_camera: Application Tour:
+
+### Desktop Version
+
+<p align="center">
+   <img src=".github/images/videos/desktop-tour.mp4" />
+</p>
+
+### Mobile Version
+
+<p align="center">
+   <img src=".github/images/videos/mobile-tour.mp4" />
+</p>
