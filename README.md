@@ -112,11 +112,11 @@
 ### Desktop Version
 
 <p align="center">
-   <img src="https://user-images.githubusercontent.com/22225821/109578893-c3b5e580-7ad6-11eb-925f-133c7ead8e5a.mp4" />
+   <video src="https://user-images.githubusercontent.com/22225821/109578934-d3352e80-7ad6-11eb-99fa-1c6d5ae9b8b3.mp4">
 </p>
 
 ### Mobile Version
 
 <p align="center">
-   <img src="https://user-images.githubusercontent.com/22225821/109578934-d3352e80-7ad6-11eb-99fa-1c6d5ae9b8b3.mp4" />
+   <video src="https://user-images.githubusercontent.com/22225821/109578893-c3b5e580-7ad6-11eb-925f-133c7ead8e5a.mp4">
 </p>
