@@ -32,7 +32,6 @@ function Menu({ history }){
 
     useEffect(()=>{
         async function handleMenuDisplay() {
-            console.log("")
             if (('/hireservices' === location.pathname || '/changeaccountinformation' === location.pathname || '/myaccount' === location.pathname) && window.screen.width <= 500){
                 document.getElementById("ContainerMenu").style.display = "none";
             }

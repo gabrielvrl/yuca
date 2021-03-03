@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useLayoutEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import Checkbox from '@material-ui/core/Checkbox';
 import { withRouter } from 'react-router';
@@ -30,26 +30,6 @@ function HireServices({ history }){
         loadUser()
     },[])
 
-
-    function handleCancel(e){
-        e.preventDefault();
-        servicesOptions.map((service) => {
-            service.checked = false
-            console.log(service.checked)
-        })
-
-    }
-
-    async function handleSave(e){
-        e.preventDefault();
-        await api.put('/services', {
-
-        })
-
-        history.push('/success')
-    }
-
-
     const GreenCheckbox = withStyles({
         root: {
                 color: "#AAAAAA",
@@ -60,22 +40,6 @@ function HireServices({ history }){
             },
             checked: Boolean,
     })((props) => <Checkbox color="default" {...props} />);
-
-
-    const [totalPrice, setTotalPrice] = useState(0)
-
-    useEffect(() => {
-        setTotalPrice(servicesOptions.reduce((total, {checked, price}) => checked ? total + price : total, 0));
-    }, [servicesOptions]);
-
-    function checkChecked({ id }) {
-        const serializedServices = servicesOptions.map((service) =>
-            service.id === id
-            ? ({ ...service, checked: !service.checked })
-            : service
-        )
-        setServicesOptions(serializedServices)
-    }
 
 
     function optionsCode(){
@@ -98,20 +62,59 @@ function HireServices({ history }){
         )
     }
 
-    useLayoutEffect(() => {
-        console.log("entrou no useLayoutEffect")
-        function inititalState() {
-            servicesOptions.map((service) => {
-                userServices.map((userService) => {
-                    if (userService.id === service.id){
-                        service.checked = true
-                        console.log("true")
-                    }
-                })
+    const [totalPrice, setTotalPrice] = useState(0)
+
+    useEffect(() => {
+        setTotalPrice(servicesOptions.reduce((total, {checked, price}) => checked ? total + price : total, 0));
+    }, [servicesOptions]);
+
+    function checkChecked({ id }) {
+        const serializedServices = servicesOptions.map((service) =>
+            service.id === id
+            ? ({ ...service, checked: !service.checked })
+            : service
+        )
+        setServicesOptions(serializedServices)
+    }
+
+    useEffect(() => {
+        const newOptions = servicesOptions.map((service) => {
+            const found = userServices.find(userService => userService.id === service.id);
+    
+            if (found) {
+                service.checked = true
+            } 
+    
+            return service
+        });
+    
+        setServicesOptions(newOptions)
+    }, [userServices]);
+
+
+    function handleCancel(e){
+        const newOptions = servicesOptions.map((service) => {
+            const found = userServices.find(userService => userService.id === service.id);
+        
+            return {
+               ...service,
+               checked: !!found
+            } 
+         });
+        setServicesOptions(newOptions);
+    }
+
+    async function handleSave(e){
+        e.preventDefault();
+        console.log(servicesOptions)
+        servicesOptions.map((service) => {
+            return api.put('/services',{
+                service
             })
-        }
-        inititalState()
-    },[])
+        })
+
+        history.push('/success')
+    }
 
     return(
         <div className="containerHire">

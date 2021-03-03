@@ -35,7 +35,6 @@ function MyAccount({ history }){
 
     function handleSave(e) {
         e.preventDefault()
-        console.log(user)
         history.push('/success')
     }
 
