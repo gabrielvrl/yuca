@@ -7,16 +7,24 @@ function Menu({ history }){
     let location = useLocation()
     useEffect(()=> {
         async function changeButtonColor(){
-            if ('/myaccount' === location.pathname || '/changeaccountinformation' === location.pathname /* && window.screen.width > 500 */){
+            if (('/myaccount' === location.pathname || '/changeaccountinformation' === location.pathname) && window.screen.width > 500){
                 let account = document.getElementById("account")
                 account.style.color = "#13C081"
                 let yuca = document.getElementById("yuca")
                 yuca.style.color = "#000000"
             } else {
-                let yuca = document.getElementById("yuca")
-                yuca.style.color = "#13C081"
-                let account = document.getElementById("account")
-                account.style.color = "#000000"
+                if(window.screen.width > 500){
+                    let yuca = document.getElementById("yuca")
+                    yuca.style.color = "#13C081"
+                    let account = document.getElementById("account")
+                    account.style.color = "#000000"
+                }
+                else{
+                    let yuca = document.getElementById("yuca")
+                    yuca.style.color = "#000000"
+                    let account = document.getElementById("account")
+                    account.style.color = "#000000"
+                }
             }
         }
         changeButtonColor()
@@ -50,6 +58,7 @@ function Menu({ history }){
         <div className="containerMenu" id="ContainerMenu" >
             <div className="options">
                 <button id="yuca" onClick={handleYuca}>MEU YUCA</button>
+                <hr className="YucaHR" />
                 <button id="account" onClick={handleConta}>MINHA CONTA</button>
             </div>
         </div>
