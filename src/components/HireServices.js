@@ -106,7 +106,6 @@ function HireServices({ history }){
 
     async function handleSave(e){
         e.preventDefault();
-        console.log(servicesOptions)
         servicesOptions.map((service) => {
             return api.put('/services',{
                 service
