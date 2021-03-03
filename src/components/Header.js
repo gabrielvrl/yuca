@@ -18,6 +18,11 @@ function Header({ history }){
         loadUser()
       },[])
 
+    function handleOnClick(e) {
+        e.preventDefault()
+        history.push('/myaccount')
+    }
+
     return(
         <nav>
             <div className="headerDiv">
@@ -25,8 +30,8 @@ function Header({ history }){
                     <img src={logo} alt="Yuca" />
                 </div>
                 <div style={{display:'flex',flexDirection:'row',alignItems:'center'}}>
-                    <div className="nameCircle">{user.firstName[0] + user.lastName[0]}</div>
-                    <h1>{user.firstName.toUpperCase()}</h1>
+                    <div className="nameCircle" onClick={handleOnClick}>{user.firstName[0] + user.lastName[0]}</div>
+                    <h1 onClick={handleOnClick}>{user.firstName.toUpperCase()}</h1>
                 </div>
             </div>
         </nav>
