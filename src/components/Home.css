@@ -91,6 +91,7 @@ div .containerHome button {
   display: flex;
   flex-direction: row;
   align-items: center;
+  cursor: pointer;
 
   position: relative;
   margin-left: auto;

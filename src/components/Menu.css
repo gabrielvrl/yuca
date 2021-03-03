@@ -26,6 +26,7 @@ div .options {
 
 div .options button {
   display: block;
+  cursor: pointer;
 
   margin: 8.5% auto;
 

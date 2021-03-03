@@ -129,6 +129,7 @@ div .containerHire .services .finalButtons #saveButton {
 div .containerHire .services button {
   width: max-content;
   height: max-content;
+  cursor: pointer;
 
   padding: 10px 15px;
 

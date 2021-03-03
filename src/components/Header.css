@@ -21,11 +21,13 @@ div .headerDiv img {
   height: 33px;
   width: 36px;
   padding: 0 20px;
+  cursor: pointer;
 }
 
 div .headerDiv h1 {
   left: calc(50% - 74px / 2 + 433px);
   font-size: 12px;
+  cursor: pointer;
 }
 
 .nameCircle {
@@ -36,6 +38,7 @@ div .headerDiv h1 {
   margin-top: 12px;
   margin-right: 10px;
   left: calc(50% - 32px / 2 + 370px);
+  cursor: pointer;
 
   background-color: #13c081;
   color: white;
