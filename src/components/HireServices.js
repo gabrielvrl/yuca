@@ -5,6 +5,9 @@ import { withRouter } from 'react-router';
 
 import './HireServices.css'
 
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 import api from '../services/api'
 
 function HireServices({ history }){
@@ -92,6 +95,30 @@ function HireServices({ history }){
     }, [userServices]);
 
 
+    const notify = () => toast.success('🚀 Operação salva com sucesso!', {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        });
+
+    async function handleSave(e){
+        e.preventDefault();
+
+        notify()
+        servicesOptions.map((service) => {
+            return api.put('/services',{
+                service
+            })
+        })
+
+        history.push('/')
+    }
+
+
     function handleCancel(e){
         const newOptions = servicesOptions.map((service) => {
             const found = userServices.find(userService => userService.id === service.id);
@@ -102,17 +129,6 @@ function HireServices({ history }){
             } 
          });
         setServicesOptions(newOptions);
-    }
-
-    async function handleSave(e){
-        e.preventDefault();
-        servicesOptions.map((service) => {
-            return api.put('/services',{
-                service
-            })
-        })
-
-        history.push('/success')
     }
 
     return(

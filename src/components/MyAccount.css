@@ -72,6 +72,7 @@ div .containerMyAccount .finalButtons {
 div .containerMyAccount button {
   padding: 10px 15px;
   cursor: pointer;
+  margin: 0 2%;
 
   color: #13c081;
   background-color: white;
@@ -88,10 +89,17 @@ div .containerMyAccount button {
   line-height: 12px;
 }
 
+div .containerMyAccount button:hover {
+  color: white;
+  background-color: #13c081;
+}
+
 div .containerMyAccount .successButton {
   display: flex;
   justify-content: center;
-  width: 100%;
+  align-items: center;
+  width: 25%;
+  margin: auto;
   color: white;
   background-color: #13c081;
 }

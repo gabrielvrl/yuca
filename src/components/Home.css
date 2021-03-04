@@ -11,6 +11,20 @@ div .containerHome {
   font-family: "Montserrat", sans-serif;
 }
 
+div .containerHome .toastMessageSuccess {
+  top: 10%;
+}
+div .containerHome .toastMessageSuccess button {
+  padding: 0;
+
+  margin-top: 0;
+
+  color: white;
+  background-color: #07bc0c;
+
+  border: 0;
+}
+
 div .containerHome hr {
   background-color: #13c081;
   margin: 0;

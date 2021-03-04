@@ -5,7 +5,10 @@ import './Home.css'
 
 import api from '../services/api'
 import metroIcon from '../assets/metroIcon.svg';
-/* import apartamentPhoto from '../assets/apartament.png' */
+// import apartamentPhoto from '../assets/apartament.png'
+// Should i use the image on Figma or the image that comes from the API?
+
+import { ToastContainer } from 'react-toastify';
 
 function Home({ history }){
     const [user, setUser] = useState({firstName: "Nome", lastName: "SN"})
@@ -45,6 +48,7 @@ function Home({ history }){
                 </div>
             </div>
             <button onClick={handleClick} type="hireServices">CONTRATAR SERVIÇOS</button>
+            <ToastContainer className="toastMessageSuccess" /> 
         </div>
     );
 }
