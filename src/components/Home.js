@@ -47,7 +47,7 @@ function Home({ history }){
                     <h4>R${apartment.price}</h4>
                 </div>
             </div>
-            <button onClick={handleClick} type="hireServices">CONTRATAR SERVIÇOS</button>
+            <button onClick={handleClick} type="hireServices" data-testid="hire-button">CONTRATAR SERVIÇOS</button>
             <ToastContainer className="toastMessageSuccess" /> 
         </div>
     );
