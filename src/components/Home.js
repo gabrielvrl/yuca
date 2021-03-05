@@ -30,7 +30,7 @@ function Home({ history }){
     }
 
     return(
-        <div className="containerHome">
+        <div className="containerHome" data-testid="container-home">
             <hr />
             <h1>Bem vindo, {user.firstName}</h1>
             <h5>Atualmente você está morando em:</h5>
