@@ -144,8 +144,8 @@ function HireServices({ history }){
                 </div>
                 <hr id="finalButtonsHR" />
                 <div className="finalButtons">
-                    <button id="cancelButton" onClick={handleCancel}>CANCELAR</button>
-                    <button id="saveButton" onClick={handleSave} type="submit">SALVAR</button>
+                    <button id="cancelButton" data-testid="cancel-btn" onClick={handleCancel}>CANCELAR</button>
+                    <button id="saveButton" data-testid="save-btn" onClick={handleSave} type="submit">SALVAR</button>
                 </div>
             </div>
         </div>
