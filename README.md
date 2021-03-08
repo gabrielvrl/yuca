@@ -111,7 +111,15 @@
    <img src=".github/images/mobile-messageToastYuca.gif" width="200" />
 </p>
 
-### :seven: Application deployed using Vercel
+### :seven: Unit Tests
+
+#### [Click here to see the code](https://github.com/gabrielvrl/yuca/tree/gv-v2.0/src/__tests__)
+
+<p align="center">
+   <img src=".github/images/UnitTests.png" />
+</p>
+
+### :eight: Application deployed using Vercel
 
 #### https://yuca.vercel.app/
 
