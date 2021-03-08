@@ -32,6 +32,7 @@
   - [Success](#three-success)
   - [Page Not Found](#four-page-not-found)
   - [Favicon & Page Title](#five-favicon-&-page-title)
+  - [Toast Message](#toast-message-for-success-operation)
   - [Application deployed using Vercel](#six-application-deployed-using-vercel)
 - [Application Tour](#movie_camera-application-tour)
 
@@ -103,7 +104,13 @@
    <img src=".github/images/favicon_and_title.png" />
 </p>
 
-### :six: Application deployed using Vercel
+### :six: Toast Message for Success Operation (Alternative for Success Page)
+
+<p align="center">
+   <img src=".github/images/desktop-messageToastYuca.png" width="575" style="margin-right: 10px; margin-bottom: 5rem"/>
+   <img src=".github/images/mobile-messageToastYuca.png" width="200" />
+</p>
+### :seven: Application deployed using Vercel
 
 #### https://yuca.vercel.app/
 
