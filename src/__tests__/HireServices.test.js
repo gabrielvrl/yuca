@@ -16,7 +16,6 @@ describe("Rendering Home", () => {
         const button = await waitFor(
             () => getByTestId('cancel-btn')
         )
-        console.log(global.window.location.pathname)
         act(() => {
             fireEvent.click(button)
         })
