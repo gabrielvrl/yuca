@@ -107,8 +107,8 @@
 ### :six: Toast Message for Success Operation (Alternative for Success Page)
 
 <p align="center">
-   <img src=".github/images/desktop-messageToastYuca.png" width="575" style="margin-right: 10px; margin-bottom: 5rem"/>
-   <img src=".github/images/mobile-messageToastYuca.png" width="200" />
+   <img src=".github/images/desktop-messageToastYuca.gif" width="575" style="margin-right: 10px; margin-bottom: 5rem"/>
+   <img src=".github/images/mobile-messageToastYuca.gif" width="200" />
 </p>
 ### :seven: Application deployed using Vercel
 
