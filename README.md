@@ -33,6 +33,7 @@
   - [Page Not Found](#four-page-not-found)
   - [Favicon & Page Title](#five-favicon-&-page-title)
   - [Toast Message](#toast-message-for-success-operation)
+  - [Unit Tests](#unit-tests)
   - [Application deployed using Vercel](#six-application-deployed-using-vercel)
 - [Application Tour](#movie_camera-application-tour)
 
@@ -113,7 +114,9 @@
 
 ### :seven: Unit Tests
 
-#### [Click here to see the code](https://github.com/gabrielvrl/yuca/tree/gv-v2.0/src/__tests__)
+#### [Click here to see the code from Home and Hire Services components](https://github.com/gabrielvrl/yuca/tree/gv-v2.0/src/__tests__)
+
+#### [If you want App.js test, click here](https://github.com/gabrielvrl/yuca/blob/gv-v2.0/src/App.test.js)
 
 <p align="center">
    <img src=".github/images/UnitTests.png" />
