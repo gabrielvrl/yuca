@@ -1,6 +1,6 @@
 # Yuca Project
 
-If you want full experience, please checkout `gv-v2.0`[https://github.com/gabrielvrl/yuca/tree/gv-v2.0] branch.
+If you want full experience, please checkout (`gv-v2.0`)[https://github.com/gabrielvrl/yuca/tree/gv-v2.0] branch.
 
 ## Home - Desktop
 
