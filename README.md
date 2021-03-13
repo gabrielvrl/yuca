@@ -1,5 +1,7 @@
 # Yuca Project
 
+If you want full experience, please checkout `gv-v2.0`[https://github.com/gabrielvrl/yuca/tree/gv-v2.0] branch.
+
 ## Home - Desktop
 
 ![Screenshot from 2021-02-15 08-46-18](https://user-images.githubusercontent.com/22225821/107942786-7f6d0600-6f6a-11eb-848d-eeba4fd4dd09.png)
