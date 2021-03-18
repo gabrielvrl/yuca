@@ -27,6 +27,7 @@
   - [Desktop Version](#computer-desktop-version)
   - [Mobile Version](#iphone-mobile-version)
 - [Extra Features](#chart_with_upwards_trend-extra-features)
+  - [Persist Hire Services Session Storage](#persist-hire-services-session-storage)
   - [My Account](#one-my-account)
   - [Change Account Informations](#two-change-account-informations)
   - [Success](#three-success)
@@ -71,48 +72,55 @@
 
 ## :chart_with_upwards_trend: Extra Features:
 
-### :one: My Account
+### :one: Persist Hire Services Session Storage
+
+<p align="center">
+   <img src=".github/images/desktop-persistHireServices.gif" width="575" style="margin-right: 10px; margin-bottom: 5rem"/>
+   <img src=".github/images/mobile-persistHireServices.gif" width="200" />
+</p>
+
+### :two: My Account
 
 <p align="center">
    <img src=".github/images/desktop-myAccount.png" width="575" style="margin-right: 10px; margin-bottom: 5rem"/>
    <img src=".github/images/mobile-myAccount.gif" width="200" />
 </p>
 
-### :two: Change Account Informations
+### :three: Change Account Informations
 
 <p align="center">
    <img src=".github/images/desktop-changeAccountInfo.png" width="575" style="margin-right: 10px; margin-bottom: 5rem"/>
    <img src=".github/images/mobile-changeAccountInfo.gif" width="200" />
 </p>
 
-### :three: Success
+### :four: Success
 
 <p align="center">
    <img src=".github/images/desktop-success.png" width="575" style="margin-right: 10px; margin-bottom: 5rem"/>
    <img src=".github/images/mobile-success.png" width="200" />
 </p>
 
-### :four: Page Not Found
+### :five: Page Not Found
 
 <p align="center">
    <img src=".github/images/desktop-pageNotFound.png" width="575" style="margin-right: 10px; margin-bottom: 5rem"/>
    <img src=".github/images/mobile-pageNotFound.png" width="200" />
 </p>
 
-### :five: Favicon & Page Title
+### :six: Favicon & Page Title
 
 <p align="center">
    <img src=".github/images/favicon_and_title.png" />
 </p>
 
-### :six: Toast Message for Success Operation (Alternative for Success Page)
+### :seven: Toast Message for Success Operation (Alternative for Success Page)
 
 <p align="center">
    <img src=".github/images/desktop-messageToastYuca.gif" width="575" style="margin-right: 10px; margin-bottom: 5rem"/>
    <img src=".github/images/mobile-messageToastYuca.gif" width="200" />
 </p>
 
-### :seven: Unit Tests
+### :eight: Unit Tests
 
 #### [Click here to see the code from Home and Hire Services components](https://github.com/gabrielvrl/yuca/tree/gv-v2.0/src/__tests__)
 
