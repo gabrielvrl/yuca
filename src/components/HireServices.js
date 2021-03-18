@@ -81,6 +81,7 @@ function HireServices({ history }){
     }
 
     useEffect(() => {
+
         const newOptions = servicesOptions.map((service) => {
             const found = userServices.find(userService => userService.id === service.id);
     
@@ -92,6 +93,18 @@ function HireServices({ history }){
         });
     
         setServicesOptions(newOptions)
+
+        console.log(sessionStorage)
+
+        if(sessionStorage.length !== 0){
+            const sessionStorageOptions = servicesOptions.map((service) => {
+                service.checked = JSON.parse(sessionStorage.getItem(`isChecked${service.id}`))
+                return service
+            })
+            setServicesOptions(sessionStorageOptions)
+        }
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [userServices]);
 
 
@@ -110,6 +123,8 @@ function HireServices({ history }){
 
         notify()
         servicesOptions.map((service) => {
+            sessionStorage.setItem(`isChecked${service.id}`, service.checked)
+
             return api.put('/services',{
                 service
             })
