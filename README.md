@@ -1,6 +1,6 @@
 # Yuca Project
 
-If you want full experience, please checkout yuca.vercel.app/ and [`gv-v2.0`](https://github.com/gabrielvrl/yuca/tree/gv-v2.0) branch.
+If you want full experience, please checkout (yuca.vercel.app/)[www.yuca.vercel.app/] and [`gv-v2.0`](https://github.com/gabrielvrl/yuca/tree/gv-v2.0) branch.
 
 ## Home - Desktop
 
