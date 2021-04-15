@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+
+div .containerMyAccount {
+  flex-flow: row wrap;
+  margin-left: 34.17%;
+  position: absolute;
+  width: 51.67%;
+  left: 5.08%;
+  top: 15%;
+  background-color: transparent;
+  font-family: "Montserrat", sans-serif;
+}
+
+div .containerMyAccount hr {
+  background-color: #13c081;
+  /* background-color: cornflowerblue; */
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 51.67px;
+  height: 4px;
+  border: none;
+}
+
+div .containerMyAccount hr#DivHR {
+  width: auto;
+  height: 1px;
+  background-color: #f2f2f2;
+  flex-direction: column;
+  margin: 15px 0px;
+}
+
+div .containerMyAccount h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 42px;
+}
+
+div .containerMyAccount h3 {
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 31px;
+}
+
+div .containerMyAccount h6 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+div .containerMyAccount ul {
+  margin: 0;
+}
+div .containerMyAccount li {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 1%;
+}
+
+div .containerMyAccount span {
+  font-weight: 600;
+}
+
+div .containerMyAccount .finalButtons {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 3%;
+}
+
+div .containerMyAccount button {
+  padding: 10px 15px;
+  cursor: pointer;
+  margin: 0 2%;
+
+  color: #13c081;
+  background-color: white;
+
+  border: 1px solid #f2f2f2;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 36px;
+  outline: none;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+div .containerMyAccount button:hover {
+  color: white;
+  background-color: #13c081;
+}
+
+div .containerMyAccount .successButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  margin: auto;
+  color: white;
+  background-color: #13c081;
+}
+
+div .containerMyAccount .saveInput {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-top: 5%;
+  color: white;
+  background-color: #13c081;
+}
+
+div .containerMyAccount input {
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  outline: none;
+  height: 25px;
+  padding: 0 20px;
+  font-size: 16px;
+  color: black;
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 500px) {
+  div .containerMyAccount {
+    margin-left: 0;
+    width: auto;
+    right: 5.08%;
+  }
+
+  div .containerMyAccount hr {
+    width: 30px;
+  }
+
+  div .containerMyAccount h1 {
+    display: flex;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px; /* 
+    width: max-content; */
+  }
+
+  div .containerMyAccount h5 {
+    width: max-content;
+  }
+  div .containerMyAccount button {
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+  }
+}

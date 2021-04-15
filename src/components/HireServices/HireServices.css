@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+
+div .containerHire {
+  flex-flow: row wrap;
+  margin-left: 34.17%;
+  position: absolute;
+  width: 51.67%;
+  left: 5.08%;
+  top: 15%;
+  background-color: transparent;
+  font-family: "Montserrat", sans-serif;
+}
+
+div .containerHire hr {
+  background-color: #faa446;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 51.67px;
+  height: 4px;
+  border: none;
+}
+
+div .containerHire h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 42px;
+}
+
+div .containerHire h5 {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+div .services {
+  display: flex;
+  flex-direction: column;
+  height: 19.27%;
+}
+
+div .containerHire .services hr#TotalHR {
+  width: auto;
+  height: 1px;
+  background-color: #f2f2f2;
+  flex-direction: column;
+  margin: 22px 0px 15px 0px;
+}
+
+div .containerHire .services hr#finalButtonsHR {
+  display: none;
+}
+
+div .services h4 {
+  display: flex;
+  margin: 1px 0px 1px 0px;
+  padding: 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: black;
+}
+
+div .services h6 {
+  margin: 1%;
+  padding: 0;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+div .services h6#totalLabel {
+  color: #4f4f4f;
+  margin-left: 0%;
+}
+
+div .services h6#totalNumberLabel {
+  color: #13c081;
+  margin-left: auto;
+}
+
+div .servicesOptions {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  color: #4f4f4f;
+  margin: 1% 1% 1% 0%;
+}
+
+div .servicesOptions label#nameLabel {
+  margin-left: 1%;
+  width: 100%;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+div .servicesOptions .priceLabel {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  color: #aaaaaa;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+div .containerHire .services .totalSelected {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+div .containerHire .services .finalButtons {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+div .containerHire .services .finalButtons #cancelButton {
+  margin-right: 3%;
+}
+
+div .containerHire .services .finalButtons #saveButton {
+  background-color: #13c081;
+  color: white;
+}
+
+div .containerHire .services button {
+  width: max-content;
+  height: max-content;
+  cursor: pointer;
+
+  padding: 10px 15px;
+
+  margin-top: 20px;
+
+  color: #13c081;
+  background-color: white;
+
+  border: 1px solid #f2f2f2;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 36px;
+  outline: none;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+}
+@media (max-width: 500px) {
+  div .containerHire {
+    margin-left: 0;
+    width: auto;
+    right: 5.08%;
+  }
+
+  div .containerHire hr {
+    width: 30px;
+  }
+
+  div .containerHire h1 {
+    display: flex;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    width: max-content;
+  }
+
+  div .containerHire h5 {
+    width: max-content;
+  }
+
+  div .containerHire .services button {
+    margin-top: auto;
+    margin-bottom: auto;
+    display: block;
+  }
+
+  div .containerHire .services .finalButtons {
+    position: fixed;
+    bottom: 3%;
+    left: 0;
+  }
+
+  div .containerHire .services .finalButtons #cancelButton {
+    margin-right: 5%;
+    margin-left: auto;
+  }
+
+  div .containerHire .services .finalButtons #saveButton {
+    margin-left: 5%;
+    margin-right: auto;
+  }
+
+  div .containerHire .services hr#finalButtonsHR {
+    display: block;
+    position: fixed;
+    margin-bottom: 20%;
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+    height: 1px;
+    background-color: #f2f2f2;
+  }
+
+  div .containerHire .services .servicesOptions {
+    margin-top: 3%;
+  }
+}
