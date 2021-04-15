@@ -1,5 +1,6 @@
 # [<img src=".github/images/logoYuca.png" width="25" height="25" /> Yuca 2.0](https://yuca.vercel.app/)
 
+
 <p align="center">
    <img src=".github/images/bannerYuca.png" />
 </p>
